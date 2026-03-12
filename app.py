@@ -24,8 +24,8 @@ CLOUDINARY_CLOUD_NAME    = os.environ.get("CLOUDINARY_CLOUD_NAME", "")
 CLOUDINARY_API_KEY       = os.environ.get("CLOUDINARY_API_KEY", "")
 CLOUDINARY_API_SECRET    = os.environ.get("CLOUDINARY_API_SECRET", "")
 
-SUPABASE_URL             = os.environ.get("SUPABASE_URL", "")
-SUPABASE_KEY             = os.environ.get("SUPABASE_KEY", "")  # service_role key
+SUPABASE_URL             = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY             = os.environ.get("SUPABASE_KEY")  # service_role key
 
 AGORA_APP_ID             = os.environ.get("AGORA_APP_ID", "")
 AGORA_APP_CERTIFICATE    = os.environ.get("AGORA_APP_CERTIFICATE", "")

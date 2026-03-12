@@ -1,0 +1,26 @@
+# Web Framework & Server
+flask
+flask-cors
+gunicorn
+
+# Environment Configuration
+python-dotenv
+
+# HTTP Requests
+requests
+
+# Agora (Video / Voice Token Server)
+agora-token-builder
+
+# Supabase (Database / Auth / Realtime)
+supabase==2.3.4
+python-jose
+websockets
+
+# Media Storage
+cloudinary
+Pillow
+
+# Pydantic (pinned untuk kompatibilitas Python 3.11)
+pydantic==2.7.4
+pydantic-core==2.18.4

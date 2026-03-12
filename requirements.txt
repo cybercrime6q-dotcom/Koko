@@ -13,7 +13,7 @@ requests
 agora-token-builder
 
 # Supabase (Database / Auth / Realtime)
-supabase==2.3.4
+supabase
 python-jose
 websockets
 
@@ -22,5 +22,5 @@ cloudinary
 Pillow
 
 # Pydantic (pinned untuk kompatibilitas Python 3.11)
-pydantic==2.7.4
-pydantic-core==2.18.4
+pydantic
+pydantic-core

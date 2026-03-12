@@ -25,7 +25,7 @@ CLOUDINARY_API_KEY       = os.environ.get("CLOUDINARY_API_KEY", "")
 CLOUDINARY_API_SECRET    = os.environ.get("CLOUDINARY_API_SECRET", "")
 
 SUPABASE_URL             = os.environ.get("SUPABASE_URL")
-SUPABASE_KEY             = os.environ.get("SUPABASE_KEY")  # service_role key
+SUPABASE_KEY             = "https://txhofofdrhmzfaoxpwqg.supabase.co"
 
 AGORA_APP_ID             = os.environ.get("AGORA_APP_ID", "")
 AGORA_APP_CERTIFICATE    = os.environ.get("AGORA_APP_CERTIFICATE", "")

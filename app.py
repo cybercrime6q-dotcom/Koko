@@ -6,6 +6,15 @@ Stack: Supabase (DB + Auth) | Cloudinary (Storage) | Agora (Call/Live)
 from flask import Flask, request, jsonify, redirect, make_response
 import time, sys, os, uuid, json, urllib.request, urllib.parse, hashlib, hmac, base64
 
+# Supabase
+from supabase import create_client, Client
+from dotenv import load_dotenv
+
+# Load environment variables dari file .env
+load_dotenv()
+# Buat client Supabase
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
 app = Flask(__name__)
 
 # ============================
